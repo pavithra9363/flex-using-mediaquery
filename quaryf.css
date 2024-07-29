@@ -1,0 +1,177 @@
+body{
+    
+    background-image: url(./IMG-20240710-WA0001.jpg);
+    background-repeat:no-repeat;
+     background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    height: 95vh; 
+    
+}
+
+ .mediaQuary{
+
+         display: flex; 
+        flex-wrap: wrap;
+         justify-content: space-around; 
+          color: white;
+          align-items: center;
+         /* margin-top: 40px;  */
+         /* margin-left: 100px; */
+          
+     
+        
+ }
+ .data1{
+    margin-top: 5px;
+ }
+      
+    .nav{
+         height: 35px;
+       font-size: 20px;
+       padding:10px ;
+       
+       
+    }  
+            
+     
+      .home,.data1{
+        background-color: white;
+        color: black;
+    
+    } 
+    .cook2{
+        display: flex;
+        justify-content: end;
+        font-size: 20px;
+        color:white;
+        padding-right:92px ;
+        padding-top: 10px;
+       
+       
+    }
+    
+    .cook1 {
+        display: flex;
+        justify-content: end;
+        font-size: 20px;
+        color:white;
+        padding-right:100px ;
+        padding-top: 10px;
+       
+        
+       
+       
+} 
+     .nav:hover{
+        background-color:white;
+        color: black;
+    
+    }
+     
+   
+    .recipe{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+        margin-top: 150px;
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    
+    }
+    .three{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    
+     .base{
+       
+        color: whitesmoke;
+        border:2px  solid white;
+    
+
+        margin:2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+    
+    
+    
+    }
+    .base:hover{
+        background-color: white;
+        color: black;
+    } 
+    @media screen and (max-width: 480px) {
+ 
+        .mediaQuary{
+             display: flex;
+            flex-direction: column;
+            text-align: center;
+            } 
+        .nav:hover{
+       background-color: white;
+       color: black;
+        width: 90%;
+     }
+            
+        
+        
+         .nav{
+            font-size: 20px;
+            margin-top:10px ;
+        
+        } 
+        .home,.data1{
+            background-color: white;
+            color: black;
+            width: 90%;
+        }
+        /* .logo{
+             left:200px; 
+            top: 10px;
+           
+        
+        } */
+         
+       .cook{
+           
+           display: flex;
+           justify-content: center;
+           padding: 20px;
+           
+        }        
+        .recipe{
+            height: auto;
+            font-size: 40px;
+            text-align: center;
+        
+        
+         } 
+         .three{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
+         }
+         
+    
+        .base{
+            margin-top: 10px;
+            width: 50%;
+        }
+        
+        
+         
+        
+        
+         
+    }  
+        
